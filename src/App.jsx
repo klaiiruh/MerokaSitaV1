@@ -106,7 +106,7 @@ function Navigation({ activeTab, setActiveTab, scrollProgress = 0, mobileMenuOpe
                 activeTab === tab ? 'text-amber-400' : 'text-slate-300 hover:text-white'
               }`}
             >
-              {tab === 'basecamp' ? 'Base Camp' : tab === 'expedition' ? 'The Expedition' : tab}
+              {tab === 'basecamp' ? 'Base Camp' : tab === 'expedition' ? 'Expedition' : tab}
             </button>
           ))}
           <button 
@@ -143,7 +143,7 @@ function Navigation({ activeTab, setActiveTab, scrollProgress = 0, mobileMenuOpe
                 activeTab === tab ? 'text-amber-400 bg-slate-800/50' : 'text-slate-300'
               }`}
             >
-              {tab === 'basecamp' ? 'Base Camp' : tab === 'expedition' ? 'The Expedition' : tab}
+              {tab === 'basecamp' ? 'Base Camp' : tab === 'expedition' ? 'Expedition' : tab}
             </button>
           ))}
           <div className="px-6 pt-3">
